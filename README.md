@@ -118,6 +118,7 @@ este archivo es el que se carga en la base de datos de Pinecone. Luego, podemos 
 a la pregunta que hicimos.
 
 **Respuesta:**
+
 _Sherlock Holmes is a fictional detective created by Sir Arthur Conan Doyle. He is known for his brilliant deductive reasoning, keen observation skills, and logical thinking. Holmes is a 
 master of disguise, a skilled violinist, and a frequent user of cocaine. He is often accompanied by his loyal friend and biographer, Dr. John H. Watson, who narrates many of the stories. 
 Holmes resides at 221B Baker Street in London and is famous for solving complex and seemingly unsolvable cases._
