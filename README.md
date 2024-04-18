@@ -26,6 +26,7 @@ Para hacer una copia local del proyecto, debemos abrir nuestra terminal, dirigir
 git clone https://github.com/andreaduranvivas/AREP-Taller9
 ```
 
+
 Nos dirigimos al directorio creado con
 
 ```
@@ -76,27 +77,54 @@ python programs/pinecone.py
 
 La pregunta que está por defecto es: "What is at the core of Popper's theory of science?" y la respuesta es la siguiente:
 
-![](multimedia/chat.png)
+**Respuesta:**
+
+_Popper's theory of science is based on the idea of falsification, which is the process of testing and disproving hypotheses. 
+This is in contrast to the traditional view of science as a process of verification or confirmation of hypotheses. At the core of Popper's 
+theory is the concept of falsifiability, which means that for a theory to be considered scientific, it must be possible to test it and potentially 
+prove it wrong. This idea of falsifiability is closely tied to the concept of empirical evidence, which is the evidence gathered through observation 
+and experimentation. According to Popper, scientific theories must be open to being proven wrong through empirical evidence, and this process of constant 
+testing and refinement is what drives scientific progress. In this way, Popper's theory emphasizes the importance of critical thinking and the continuous 
+questioning and revision of scientific ideas._
+
+![](multimedia/chat2.png)
 
 Podemos cambiar la pregunta que queremos hacerle al chatbot, para ello debemos modificar la variable `question` en el archivo `chat.py` y luego ejecutar el programa.
+
+![](multimedia/chat.png)
 
 
 #### Programa 2:  Crear un RAG simple usando una base de datos vectorial en memoria
 
 La pregunta que está por defecto es: "What is Task Decomposition?", y la respuesta es la siguiente:
 
-![](multimedia/rag.png)
+**Respuesta:**
+
+_Task Decomposition is a technique used to break down complex tasks into smaller and simpler steps. This approach helps agents to plan and execute tasks more
+efficiently by transforming big tasks into manageable subtasks. Task decomposition can be achieved through prompting techniques like Chain of Thought or Tree of 
+Thoughts, as well as with task-specific instructions or human inputs._
+
+![](multimedia/rag2.png)
 
 Podemos cambiar la pregunta que queremos hacerle al chatbot, para ello debemos modificar el parámetro de en el archivo `rag.py` y luego ejecutar el programa.
+
+![](multimedia/rag.png)
 
 #### Programa 3: Crear un RAG usando Pinecone
 
 En este caso, las preguntas las vamos haciendo nosotros mismos, y el programa nos devuelve la respuesta que más se asemeje 
 a la pregunta que hicimos. Para ello, tenemos un archivo de texto llamado `Conocimiento.txt` que una historia de Sherlock Holmes, llamada "The Adventure of the Empty House",
-este archivo es el que se carga en la base de datos de Pinecone. Luego, podemos hacer preguntas como: "Who is Sherlock Holmes?" y el programa nos devolverá la respuesta más cercana 
+este archivo es el que se carga en la base de datos de Pinecone. Luego, podemos hacer preguntas como: "Who is Sherlock Holmes?", y el programa nos devolverá la respuesta más cercana 
 a la pregunta que hicimos.
 
-En la siguiente imagen podemos ver un ejemplo de una pregunta que hicimos al programa y la respuesta que nos devolvió:
+**Respuesta:**
+_Sherlock Holmes is a fictional detective created by Sir Arthur Conan Doyle. He is known for his brilliant deductive reasoning, keen observation skills, and logical thinking. Holmes is a 
+master of disguise, a skilled violinist, and a frequent user of cocaine. He is often accompanied by his loyal friend and biographer, Dr. John H. Watson, who narrates many of the stories. 
+Holmes resides at 221B Baker Street in London and is famous for solving complex and seemingly unsolvable cases._
+
+![](multimedia/pinecone2.png)
+
+Podemos cambiar la pregunta que queremos hacerle al chatbot, para ello debemos modificar el valor de query en `pinecone.py` y luego ejecutar el programa.
 
 ![](multimedia/pinecone.png)
 

@@ -82,7 +82,7 @@ def search():
     # if you already have an index, you can load it like this
     docsearch = PineconeVectorStore.from_existing_index(index_name, embeddings)
 
-    query = "What is a distributed pointcut"
+    query = "Who is Sherlock Holmes?"
     docs = docsearch.similarity_search(query)
 
     print(docs[0].page_content)
